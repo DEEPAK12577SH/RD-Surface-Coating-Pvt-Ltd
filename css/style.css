@@ -96,9 +96,18 @@ a:focus {
 .top-bar .logo h1 {
     margin: 0;
     color: #1d57ca;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 60px;
     font-weight: 700;
+}
+@media (min-width: 792px) {
+    .top-bar .logo h1 {
+        margin: 0;
+        color: #1d57ca;
+        font-size: 30px;
+        line-height: 60px;
+        font-weight: 700;
+    }
 }
 
 .top-bar .logo img {
